@@ -1,5 +1,8 @@
-# API Sample with Rails
+# Simple Rails Project
 
+This project is for https://github.com/matwu/coreos-vagrant
+
+---
 
 update bundle
 
