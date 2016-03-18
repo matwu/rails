@@ -13,7 +13,7 @@ $ bundle update
 start rails as deamon
 
 ```bash:app
-$ sh ./start_unicorn.sh
+$ sh ./start_unicorn.sh development
 ```
 
 kill rails
