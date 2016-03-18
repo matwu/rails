@@ -6,14 +6,18 @@ This project is for https://github.com/matwu/coreos-vagrant
 
 update bundle
 
-```bash
+```bash:app
 $ bundle update
 ```
 
 start rails as deamon
 
-```bash
-$ bundle exec rake db:create && bundle exec rake db:migrate
-$ bundle exec foreman start -f Procfile
+```bash:app
+$ sh ./start_unicorn.sh
 ```
 
+kill rails
+
+```bash:app
+$ sh ./start_unicorn.sh
+```
