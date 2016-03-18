@@ -19,5 +19,5 @@ $ sh ./start_unicorn.sh
 kill rails
 
 ```bash:app
-$ sh ./start_unicorn.sh
+$ sh ./kill_unicorn.sh
 ```
